@@ -1,0 +1,5 @@
+<xml-command name="send-error" classname="ajaxerrortest.xmlcommands.SendError">
+    <attributes>
+        <attribute name="message" mandatory="y"/>
+    </attributes>
+</xml-command>

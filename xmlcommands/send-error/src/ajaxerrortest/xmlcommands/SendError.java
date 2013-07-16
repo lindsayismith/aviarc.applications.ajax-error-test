@@ -5,11 +5,11 @@ import com.aviarc.core.state.State;
 import com.aviarc.framework.xml.command.AbstractXMLCommand;
 import com.aviarc.framework.xml.compilation.CompiledElementAttribute;
 
-public class SendAjaxErrorResponse extends AbstractXMLCommand {
+public class SendError extends AbstractXMLCommand {
     private static final long serialVersionUID = 0L;
     private RuntimeValue<String> _message;
     
-    public SendAjaxErrorResponse() {}
+    public SendError() {}
 
     @Override
     public void doInitialize(InitializationContext ctx) {
