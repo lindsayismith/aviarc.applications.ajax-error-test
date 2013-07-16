@@ -1,0 +1,3 @@
+<workflow>
+    <send-ajax-error-response message="MESSED UP"/>    
+</workflow>

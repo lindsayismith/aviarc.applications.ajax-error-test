@@ -1,0 +1,3 @@
+<xml-command name="test-execution-exception" classname="ajaxerrortest.xmlcommands.TestExecutionException">
+    <attributes></attributes>
+</xml-command>

@@ -1,0 +1,4 @@
+<workflow>
+    <send-ajax-error-response message="BROKE"/>
+    <test-throw-error/>
+</workflow>

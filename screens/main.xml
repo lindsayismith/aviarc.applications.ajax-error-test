@@ -1,0 +1,30 @@
+<screen xmlns:action="urn:aviarc:widget:com.aviarc.toronto.widget.core.action:1" xmlns:app="urn:aviarc:widget:application">
+    <button width="100" height="26" left="430" top="179" label="ajax-test">
+        <action:when event="onClick">
+            <action:call-ajax-workflow name="ajax-test">
+                
+            </action:call-ajax-workflow>
+        </action:when>
+    </button>
+    <action:when system-event="onAjaxError">
+        <action:script>
+            console.log("ajax error");
+        </action:script>
+        <action:alert message="{$event-parameters.message}"/>
+        <app:set-return-value value="false" />
+    </action:when>
+    <action:when system-event="onScreenSubmitError">
+        <action:script>
+            console.log('onScreenSubmitError');
+        </action:script>
+        <app:set-return-value value="false" />
+    </action:when>
+    <button width="100" height="26" left="352" top="287" label="ajax-execution-exception">
+        
+        <action:when event="onClick">
+            <action:call-ajax-workflow name="ajax-execution-exception">
+                
+            </action:call-ajax-workflow>
+        </action:when>
+    </button>
+</screen>

@@ -1,0 +1,12 @@
+<widget name="set-return-value"
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+        action="y">
+    <attributes>
+        <attribute name="value" type="string" default="false" mandatory="n"/>
+        <attribute name="type" type="string" default="boolean" mandatory="n"/> <!-- boolean|integer|string -->
+    </attributes>
+    <includes>
+        <js-include file="SetReturnValue.js"/>
+    </includes>
+    <js-constructor>new YAHOO.qmuPortal.SetReturnValue()</js-constructor>
+</widget>

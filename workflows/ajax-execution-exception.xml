@@ -1,0 +1,5 @@
+<workflow>
+    <with-error-workflow name="ajax-error-workflow">
+        <test-execution-exception/>
+    </with-error-workflow>
+</workflow>

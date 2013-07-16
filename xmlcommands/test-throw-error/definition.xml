@@ -1,0 +1,3 @@
+<xml-command name="test-throw-error" classname="ajaxerrortest.xmlcommands.TestThrowError">
+    <attributes></attributes>
+</xml-command>
